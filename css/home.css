@@ -1,0 +1,47 @@
+body {
+    background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+h1{
+    color: white;
+}
+.navigator{
+    display: flex;
+    flex-wrap: nowrap;   
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;   
+    justify-content: space-around;
+    padding-left: 9cm;
+}
+a {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px; 
+}
+a:hover{
+    color: red;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    -webkit-user-select: none;margin: auto;cursor: zoom-out;
+}
+.para {
+    display: none;
+}
